@@ -1,0 +1,134 @@
+---------------------Thread-3 ran uname -a @ 13.126.143.155---------------------
+Linux ip-172-31-7-129.ap-south-1.compute.internal 4.18.0-80.4.2.el8_0.x86_64 #1 SMP Fri Jun 14 13:20:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+----------------------Thread-4 ran Iscpu @ 13.126.143.155-----------------------
+bash: Iscpu: command not found
+
+--------------Thread-5 ran systemctl status sshd @ 13.126.143.155---------------
+----------------------Thread-2 ran df -h @ 13.126.143.155-----------------------
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        391M     0  391M   0% /dev
+tmpfs           410M     0  410M   0% /dev/shm
+tmpfs           410M   52M  359M  13% /run
+tmpfs           410M     0  410M   0% /sys/fs/cgroup
+/dev/xvda2       10G  1.2G  8.8G  12% /
+tmpfs            82M     0   82M   0% /run/user/1001
+
+---------------------Thread-1 ran free -m @ 13.126.143.155----------------------
+              total        used        free      shared  buff/cache   available
+Mem:            819         138         295          51         385         505
+Swap:             0           0           0
+
+----------------------Thread-4 ran Iscpu @ 13.126.143.155-----------------------
+bash: Iscpu: command not found
+
+--------------Thread-5 ran systemctl status sshd @ 13.126.143.155---------------
+---------------------Thread-3 ran uname -a @ 13.126.143.155---------------------
+Linux ip-172-31-7-129.ap-south-1.compute.internal 4.18.0-80.4.2.el8_0.x86_64 #1 SMP Fri Jun 14 13:20:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+----------------------Thread-2 ran df -h @ 13.126.143.155-----------------------
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        391M     0  391M   0% /dev
+tmpfs           410M     0  410M   0% /dev/shm
+tmpfs           410M   52M  359M  13% /run
+tmpfs           410M     0  410M   0% /sys/fs/cgroup
+/dev/xvda2       10G  1.2G  8.8G  12% /
+tmpfs            82M     0   82M   0% /run/user/1001
+
+---------------------Thread-1 ran free -m @ 13.126.143.155----------------------
+              total        used        free      shared  buff/cache   available
+Mem:            819         146         287          51         386         498
+Swap:             0           0           0
+
+-----------------------Thread-5 ran date @ 13.126.143.155-----------------------
+Thu Dec 19 11:07:59 UTC 2019
+
+---------------------Thread-3 ran uname -a @ 13.126.143.155---------------------
+Linux ip-172-31-7-129.ap-south-1.compute.internal 4.18.0-80.4.2.el8_0.x86_64 #1 SMP Fri Jun 14 13:20:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+----------------------Thread-4 ran Iscpu @ 13.126.143.155-----------------------
+bash: Iscpu: command not found
+
+----------------------Thread-2 ran df -h @ 13.126.143.155-----------------------
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        391M     0  391M   0% /dev
+tmpfs           410M     0  410M   0% /dev/shm
+tmpfs           410M   52M  359M  13% /run
+tmpfs           410M     0  410M   0% /sys/fs/cgroup
+/dev/xvda2       10G  1.2G  8.8G  12% /
+tmpfs            82M     0   82M   0% /run/user/1001
+
+---------------------Thread-1 ran free -m @ 13.126.143.155----------------------
+              total        used        free      shared  buff/cache   available
+Mem:            819         149         283          51         386         494
+Swap:             0           0           0
+
+----------------------Thread-2 ran df -h @ 13.126.143.155-----------------------
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        391M     0  391M   0% /dev
+tmpfs           410M     0  410M   0% /dev/shm
+tmpfs           410M   52M  359M  13% /run
+tmpfs           410M     0  410M   0% /sys/fs/cgroup
+/dev/xvda2       10G  1.2G  8.8G  13% /
+tmpfs            82M     0   82M   0% /run/user/1001
+
+----------------------Thread-4 ran Iscpu @ 13.126.143.155-----------------------
+bash: Iscpu: command not found
+
+---------------------Thread-3 ran uname -a @ 13.126.143.155---------------------
+Linux ip-172-31-7-129.ap-south-1.compute.internal 4.18.0-80.4.2.el8_0.x86_64 #1 SMP Fri Jun 14 13:20:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+---------------------Thread-1 ran free -m @ 13.126.143.155----------------------
+              total        used        free      shared  buff/cache   available
+Mem:            819         155         275          51         388         488
+Swap:             0           0           0
+
+-----------------------Thread-5 ran date @ 13.126.143.155-----------------------
+Thu Dec 19 11:18:34 UTC 2019
+
+---------------------Thread-3 ran uname -a @ 13.126.143.155---------------------
+Linux ip-172-31-7-129.ap-south-1.compute.internal 4.18.0-80.4.2.el8_0.x86_64 #1 SMP Fri Jun 14 13:20:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+----------------------Thread-4 ran Iscpu @ 13.126.143.155-----------------------
+bash: Iscpu: command not found
+
+-----------------------Thread-5 ran date @ 13.126.143.155-----------------------
+Fri Dec 20 04:15:31 UTC 2019
+
+----------------------Thread-2 ran df -h @ 13.126.143.155-----------------------
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        391M     0  391M   0% /dev
+tmpfs           410M     0  410M   0% /dev/shm
+tmpfs           410M   52M  359M  13% /run
+tmpfs           410M     0  410M   0% /sys/fs/cgroup
+/dev/xvda2       10G  1.2G  8.8G  12% /
+tmpfs            82M     0   82M   0% /run/user/1001
+
+---------------------Thread-1 ran free -m @ 13.126.143.155----------------------
+              total        used        free      shared  buff/cache   available
+Mem:            819         157         266          51         395         486
+Swap:             0           0           0
+
+----------------------Thread-2 ran df -h @ 13.126.143.155-----------------------
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        391M     0  391M   0% /dev
+tmpfs           410M     0  410M   0% /dev/shm
+tmpfs           410M   52M  359M  13% /run
+tmpfs           410M     0  410M   0% /sys/fs/cgroup
+/dev/xvda2       10G  1.2G  8.8G  12% /
+tmpfs            82M     0   82M   0% /run/user/1001
+
+-----------------------Thread-5 ran date @ 13.126.143.155-----------------------
+Fri Dec 20 04:19:17 UTC 2019
+
+---------------------Thread-3 ran uname -a @ 13.126.143.155---------------------
+Linux ip-172-31-7-129.ap-south-1.compute.internal 4.18.0-80.4.2.el8_0.x86_64 #1 SMP Fri Jun 14 13:20:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+----------------------Thread-4 ran Iscpu @ 13.126.143.155-----------------------
+bash: Iscpu: command not found
+
+---------------------Thread-1 ran free -m @ 13.126.143.155----------------------
+              total        used        free      shared  buff/cache   available
+Mem:            819         153         270          51         395         490
+Swap:             0           0           0
+
